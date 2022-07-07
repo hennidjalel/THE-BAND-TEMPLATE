@@ -1,0 +1,44 @@
+.header{
+    height: 100vh;
+}
+
+.container{
+    padding: 60px 250px;
+    position: relative;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 40px;
+    font-weight:400;
+}
+.header-content p{
+    font-size: 15px;
+    font-weight:400;
+    padding-bottom: 20px;
+}
+
+.header-paragraph{
+    text-align: justify!important;
+    padding-bottom: 20px;
+}
+.header-images{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cart h3{
+    font-size: 15px;
+    font-weight:400;
+}
+.cart-image{
+    width: 150px;
+}
+.cart-image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+

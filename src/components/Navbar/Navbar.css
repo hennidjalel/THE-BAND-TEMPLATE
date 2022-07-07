@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 35px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.navlinks a{
+    padding: 7px 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.navlinks a:hover{
+    background-color: rgb(175, 173, 173);
+    color: black;
+}
+.navserch a{
+    padding: 7px 20px;
+    color: white;
+}
+.navserch a:hover{
+    background-color: #f44336;
+
+}

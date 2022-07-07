@@ -1,0 +1,53 @@
+.content{
+    height: 100%;
+    background: #000;
+}
+.container{
+    padding: 60px 250px;
+    position: relative;
+}
+.container .disc{
+    font-size: 35px;
+    font-weight:300;
+    text-align: center;
+    color: #fff;
+}
+
+.content .container .par{
+    font-size: 15px;
+    font-weight:400;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.778);
+    text-align: center;
+}
+.txt{
+    width: 100%;
+}
+.txt-content{
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: rgba(0, 0, 0, 0.35) 1px solid;
+}
+
+.txt-content span{
+    background-color: #f44336;
+    padding:0 5px;
+    margin-left: 30px;
+    color: #fff;
+}
+.txt-content #num{
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+ul li:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin: 40px auto;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+}

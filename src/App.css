@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.contact{
+    height: 500px;
+    background-color: #fff;
+}
+.container{
+    position: relative;
+}
+/* .contact .container{
+    padding: 60px 250px;
+    position: relative;
+} */
+.contact .contact-txt {
+    font-size: 35px;
+    font-weight:300;
+    text-align: center;
+    color: #000;
+}
+.contact .container .par{
+    font-size: 15px;
+    font-weight:400;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.615);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contnt{
+    display: flex;
+}
+.contnt .content-left{
+    width: 50%;
+}
+.contnt .content-left i{
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.content-rigth .contnt-name :first-child{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.content-rigth .contnt-name input{
+    padding: 10px 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-rigth .content-message input{
+    width: 94%;
+    padding: 10px 10px;
+}
+.content-message .btn-card button{
+    position: absolute;
+    right: 19%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.map{
+    position: relative;
+    background-image: url("../public/image/map.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.map .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 20%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer .container{
+    text-align: center;
+}
+.footer .icons i{
+    color: #7b7676;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.footer .icons i:hover{
+    color: rgb(195, 184, 184);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link p a{
+    text-decoration: none;
+    color: #7b7676;
 }
